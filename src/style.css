@@ -24,14 +24,14 @@ main {
   gap: 0.5rem;
 }
 
-main section {
-  min-width: 50%;
-}
-
 section {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+main section {
+  min-width: 50%;
 }
 
 section div {
