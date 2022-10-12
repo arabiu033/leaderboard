@@ -5,7 +5,7 @@ const response = await fetch(baseUrl, {
     'Content-Type': 'application/json',
   },
   body: JSON.stringify({
-    'name': 'unpocoloco'
+    name: 'unpocoloco',
   }),
 });
 
