@@ -7,13 +7,13 @@ const addScore = async (e, gameUrl) => {
   if (name.value === '' || score.value === '') {
     return;
   }
-  
+
   if (!score.value.match(/^[0-9]+$/)) {
     score.value = '';
     score.classList.add('red');
     score.setAttribute('placeholder', 'Please enter a valid score');
-    return
-  };
+    return;
+  }
 
   await fetch(gameUrl, {
     method: 'POST',
