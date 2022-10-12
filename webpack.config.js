@@ -36,4 +36,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
       },
     ],
   },
+  experiments: {
+    topLevelAwait: true
+  },
  };
