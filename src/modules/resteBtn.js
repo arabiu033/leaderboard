@@ -5,13 +5,10 @@ let scores;
 const resetBtn = async (gameUrl) => {
   results = await fetch(gameUrl);
   scores = await results.json();
-  list.innerHTML = '';
+  list.innerHTML = '<li><span>Names</span><em>Scores</em></li>';
   scores.result.forEach((e) => {
-    const li = document.createElement('li');
-    li.append(document.createElement('span')
-      .textContent = e.user.concat(': '),
-    document.createElement('em').textContent = e.score);
-    list.appendChild(li);
+    list.innerHTML += `<li><span>${e.user}
+      </span><em>${e.score}</em></li>`;
   });
 };
 
