@@ -30,6 +30,8 @@ const addScore = async (e, gameUrl) => {
   score.setAttribute('placeholder', 'Your score');
   score.value = '';
   name.value = '';
+
+  document.getElementById('reset-btn').click();
 };
 
 export default addScore;
