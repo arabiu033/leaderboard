@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[**See Project 🚀**]();
+[**See Project 🚀**](https://boardvalues.netlify.app);
 
 ## Get Started
 
@@ -34,7 +34,9 @@ git clone https://github.com/arabiu033/leaderboard.git
 cd Leaderboard
 ```
 3. Open it with the live server
-
+```bash
+npm start
+```
 ### Install
 > To install linters and other project's dependencies run:
 ```bash
@@ -61,25 +63,52 @@ npx stylelint "\*_/_.{css,scss}"
 npx eslint .
 ```
 
+### Deployment
+
+You can deploy this project using: GitHub Pages,
+- I used netlify to deploy my website.
+- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
+
 ## Author
 
 - GitHub: [@arabiu033](https://github.com/arabiu033)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/larabiu033)
 
 
+<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support
 
-## Acknowledgments
-For Design Inspiration I would like to Acknowledge
+
+Give a ⭐️ if you like this project and how I managed to build it!
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Project from [Microverse](https://www.microverse.org/) html & css module.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
+
+
+## ❓ FAQ 
+
+- **Can I fork and reuse the repository**
+
+  - Yes please, feel free.
+
+- **Can I improve the repository, and my changes will be accepted if they are good?**
+
+  - Yes please, nice ideas are welcome, please.
+
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
